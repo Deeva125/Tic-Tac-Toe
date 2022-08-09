@@ -1,0 +1,20 @@
+body{
+    background-color: burlywood;
+}
+
+table{
+    width: 40vw;
+    height: 40vh;
+    margin: auto;
+}
+
+td{
+    text-align: center;
+    padding: 10px;
+    background: black;
+    width: 12vw;
+}
+
+td img{
+    width: 100%;
+}
