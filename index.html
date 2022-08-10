@@ -15,51 +15,51 @@
   <table>
     <tr>
       <td>
-        <img onclick="play(this)"
+        <img id="first" onclick="play(this)"
           src="https://us.123rf.com/450wm/kritchanut/kritchanut1409/kritchanut140900060/31219816-white-gray-abstract-background-with-radial-gradient-effect.jpg?ver=6"
           alt="" />
       </td>
       <td>
-        <img onclick="play(this)"
+        <img id="second" onclick="play(this)"
           src="https://us.123rf.com/450wm/kritchanut/kritchanut1409/kritchanut140900060/31219816-white-gray-abstract-background-with-radial-gradient-effect.jpg?ver=6"
           alt="" />
       </td>
       <td>
-        <img onclick="play(this)"
-          src="https://us.123rf.com/450wm/kritchanut/kritchanut1409/kritchanut140900060/31219816-white-gray-abstract-background-with-radial-gradient-effect.jpg?ver=6"
-          alt="" />
-      </td>
-    </tr>
-    <tr>
-      <td>
-        <img onclick=" play(this)"
-          src="https://us.123rf.com/450wm/kritchanut/kritchanut1409/kritchanut140900060/31219816-white-gray-abstract-background-with-radial-gradient-effect.jpg?ver=6"
-          alt="" />
-      </td>
-      <td>
-        <img onclick="play(this)"
-          src="https://us.123rf.com/450wm/kritchanut/kritchanut1409/kritchanut140900060/31219816-white-gray-abstract-background-with-radial-gradient-effect.jpg?ver=6"
-          alt="" />
-      </td>
-      <td>
-        <img onclick="play(this)"
+        <img id="third" onclick="play(this)"
           src="https://us.123rf.com/450wm/kritchanut/kritchanut1409/kritchanut140900060/31219816-white-gray-abstract-background-with-radial-gradient-effect.jpg?ver=6"
           alt="" />
       </td>
     </tr>
     <tr>
       <td>
-        <img onclick="play(this)"
+        <img id="fourth" onclick=" play(this)"
           src="https://us.123rf.com/450wm/kritchanut/kritchanut1409/kritchanut140900060/31219816-white-gray-abstract-background-with-radial-gradient-effect.jpg?ver=6"
           alt="" />
       </td>
       <td>
-        <img onclick="play(this)"
+        <img id="fifth" onclick="play(this)"
           src="https://us.123rf.com/450wm/kritchanut/kritchanut1409/kritchanut140900060/31219816-white-gray-abstract-background-with-radial-gradient-effect.jpg?ver=6"
           alt="" />
       </td>
       <td>
-        <img onclick="play(this)"
+        <img id="sixth" onclick="play(this)"
+          src="https://us.123rf.com/450wm/kritchanut/kritchanut1409/kritchanut140900060/31219816-white-gray-abstract-background-with-radial-gradient-effect.jpg?ver=6"
+          alt="" />
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <img id="seventh" onclick="play(this)"
+          src="https://us.123rf.com/450wm/kritchanut/kritchanut1409/kritchanut140900060/31219816-white-gray-abstract-background-with-radial-gradient-effect.jpg?ver=6"
+          alt="" />
+      </td>
+      <td>
+        <img id="eight" onclick="play(this)"
+          src="https://us.123rf.com/450wm/kritchanut/kritchanut1409/kritchanut140900060/31219816-white-gray-abstract-background-with-radial-gradient-effect.jpg?ver=6"
+          alt="" />
+      </td>
+      <td>
+        <img id="ninth" onclick="play(this)"
           src="https://us.123rf.com/450wm/kritchanut/kritchanut1409/kritchanut140900060/31219816-white-gray-abstract-background-with-radial-gradient-effect.jpg?ver=6"
           alt="" />
       </td>
@@ -81,7 +81,27 @@
             "data:image/png;base64,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";
         }
         turn = turn + 1;
+        checkwinner(block)
       }
+    }
+
+    let first=document.getElementById("first").src
+    let second=document.getElementById("second").src
+    let third=document.getElementById("third").src
+
+    function checkwinner(player){
+      console.log(player.src)
+      if (first==second){
+        
+        alert(player.src)
+        if ( second == third){
+          if (third==player.src){
+            document.write("Player is winner!")
+          }
+        }
+      } 
+        
+      
     }
   </script>
   <div class="center">
