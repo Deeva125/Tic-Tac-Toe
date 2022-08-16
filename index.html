@@ -85,20 +85,19 @@
       }
     }
 
-    let first=document.getElementById("first").src
-    let second=document.getElementById("second").src
-    let third=document.getElementById("third").src
+    let block="https://us.123rf.com/450wm/kritchanut/kritchanut1409/kritchanut140900060/31219816-white-gray-abstract-background-with-radial-gradient-effect.jpg?ver=6s"
+
+    
 
     function checkwinner(player){
-      console.log(player.src)
-      if (first==second){
+
+      let first=document.getElementById("first").src
+      let second=document.getElementById("second").src
+      let third=document.getElementById("third").src
+
+      if (first==second && second == third && first != block){
+        location.href="xwinner.html"
         
-        alert(player.src)
-        if ( second == third){
-          if (third==player.src){
-            document.write("Player is winner!")
-          }
-        }
       } 
         
       
